@@ -14,7 +14,7 @@ and edit it as appropriate.
 
 BashGuide (from Assignment)
 COS217's video walkthrough part 1 (from Assignment)
-Cos217's video walkthrough part 2 (from Assignment)
+COS217's video walkthrough part 2 (from Assignment)
 GitGitHubPrimer.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
 Computingenv.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
 linux.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
@@ -53,7 +53,7 @@ Regulations in Princeton's Rights, Rules, Responsibilities guide,
 and the COS 217 Generative AI policy, disclose and describe how you
 used AI in completing this assignment:
 
-I did not use AI in completing this assignment
+I did use AI specifically to understand how bash loops worked. I first watched the COS217 video part 2, which was provided on the assignment, to understand how some loops work. I then used AI to essentially ask it to further explain how general syntax for loops worked, how synatx for loops worked if you wanted to do embedded/double loops, to clarify  what ;do does, and also why iteration for letters could not be `seq -w a z` and why it needed to be {a..z}. 
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
