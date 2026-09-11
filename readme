@@ -1,8 +1,8 @@
 Assignment 0 readme File
 
 ------------------------------------------------------------------------
-What is your name?
-
+What is your name? 
+Louis Barbosa
 
 
 ------------------------------------------------------------------------
@@ -11,6 +11,16 @@ assignment? COPY THE LIST of authorized sources of information given
 in the "Policies" web page (also available on armlab in the file
 ~cos217/AuthorizedSourcesList ) to this section of the readme file,
 and edit it as appropriate.
+
+BashGuide (from Assignment)
+COS217's video walkthrough part 1 (from Assignment)
+Cos217's video walkthrough part 2 (from Assignment)
+GitGitHubPrimer.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
+Computingenv.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
+linux.pdf (from /courses/archive/fall26/cos217/precepts/w01p1)
+
+
+
 
 
 
@@ -26,29 +36,29 @@ interaction, may additionally require the interaction being reported
 to the Committee on Discipline. Write "None" if you used no
 unauthorized sources of information.
 
-
+None
 
 ------------------------------------------------------------------------
 In fulfillment of the requirement from section 2.4.3 of the Academic
 Regulations in Princeton's Rights, Rules, Responsibilities guide,
-enter your name in the space below the following affirmation:
+enter your name in the space below the following affirmation: 
 
 This paper represents my own work in accordance with University
 regulations.
 
-
+Louis Barbosa
 ------------------------------------------------------------------------
 In fulfillment of the requirement from section 2.4.6 of the Academic
 Regulations in Princeton's Rights, Rules, Responsibilities guide,
 and the COS 217 Generative AI policy, disclose and describe how you
 used AI in completing this assignment:
 
-
+I did not use AI in completing this assignment
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
 
-
+I found the assignment to be quite helpful. It got me a lot more comfortable with using gitbash and I feel like I understand what I am doing a lot more.
 
 ------------------------------------------------------------------------
 (optional) What information can you provide about your submission that
@@ -60,9 +70,11 @@ particular, what bugs are in your submission?
 ------------------------------------------------------------------------
 What bash command(s) did you use to generate the files in Step 3.2?
 
+armlab06:~/Survey$ for i in `seq -w 1 11`; do for j in {a..z}; do echo $j>| file$i$j.txt;done;done
+
 
 
 ------------------------------------------------------------------------
 What is your resulting MD5 checksum from Step 3.3 (NOT 3.2!)?
 
-MD5:
+MD5: a9345e1737dcb9aa3ae169e4caaa0b7c
